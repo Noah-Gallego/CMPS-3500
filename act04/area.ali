@@ -1,0 +1,142 @@
+V "GNAT Lib v12"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U area%b		area.adb		dfb5e4da NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_flt%s	s-valflt.ads		s-valflt.ali
+
+D ada.ads		20220819080952 76789da1 ada%s
+D a-charac.ads		20220819080952 2d3ec45b ada.characters%s
+D a-chahan.ads		20220819080952 bbd5c0b9 ada.characters.handling%s
+D a-chlat1.ads		20220819080952 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20220819080952 2a7d8d70 ada.exceptions%s
+D a-flteio.ads		20220819080952 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20220819080952 40018c65 ada.io_exceptions%s
+D a-stream.ads		20220819080952 119b8fb3 ada.streams%s
+D a-string.ads		20220819080952 90ac6797 ada.strings%s
+D a-strfix.ads		20220819080952 a4e33eef ada.strings.fixed%s
+D a-strmap.ads		20220819080952 233229cd ada.strings.maps%s
+D a-strsea.ads		20220819080952 6f718bb4 ada.strings.search%s
+D a-sttebu.ads		20220819080952 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220819080952 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220819080952 9eaa38c6 ada.tags%s
+D a-textio.ads		20220819080952 deada98a ada.text_io%s
+D a-tiflio.ads		20220819080952 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20220819080952 0e9b276f ada.unchecked_conversion%s
+D area.adb		20250325075650 ffa4f4a6 area%b
+D interfac.ads		20220819080952 edec285f interfaces%s
+D i-cstrea.ads		20220819080952 e53d8b8e interfaces.c_streams%s
+D system.ads		20220819080952 a2da961d system%s
+D s-crtl.ads		20220819080952 8a0692f8 system.crtl%s
+D s-exctab.ads		20220819080952 91bef6ef system.exception_table%s
+D s-ficobl.ads		20220819080952 dc5161d4 system.file_control_block%s
+D s-parame.ads		20220819080952 d494a4a6 system.parameters%s
+D s-powflt.ads		20220819080952 d8ff1a45 system.powten_flt%s
+D s-putima.ads		20220819080952 4e095881 system.put_images%s
+D s-secsta.ads		20220819080952 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220819080952 df77073e system.soft_links%s
+D s-stache.ads		20220819080952 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20220819080952 1c9580f6 system.standard_library%s
+D s-stoele.ads		20220819080952 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220819080952 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20220819080952 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220819080952 fa2a7f59 system.unsigned_types%s
+D s-valflt.ads		20220819080952 d738ba7d system.val_flt%s
+D s-valrea.ads		20220819080952 8ddc6624 system.val_real%s
+D s-wchcon.ads		20220819080952 d9032363 system.wch_con%s
+D unchconv.ads		20220819080952 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [area standard 14 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|9r6 9r23 10r6 10r29 11r6 11r29 12r6 12r35
+X 2 a-charac.ads
+16K13*Characters 18e19 19|12r10 12r39
+X 3 a-chahan.ads
+43K24*Handling 453e28 19|12w21 12r50
+68V13*Is_Graphic{boolean} 19|71s22
+X 6 a-flteio.ads
+20K13*Float_Text_IO[17|46] 19|10w10 10r33
+X 9 a-string.ads
+16K13*Strings 35e16 19|11r10 11r33
+X 10 a-strfix.ads
+49K21*Fixed 1397e22 19|11w18 11r41
+X 16 a-textio.ads
+58K13*Text_IO 727e16 19|9w10 9r27
+66P9*File_Type 19|54r14
+68n23*In_File{68E9} 19|59r18
+88I12*Field{integer}
+113U14*Open 19|59s7
+128U14*Close 19|127s7
+263U14*New_Line 19|165s7
+311V13*End_Of_File{boolean} 19|60s17
+464U14*Put 19|156s10 158s10
+470U14*Get_Line 19|61s10
+507U14*Put_Line 19|154s7 160s10 163s7
+X 17 a-tiflio.ads
+82U14*Put 19|157s10[6|20] 159s10[6|20] 164s7[6|20]
+84i7 Fore{16|88I12} 19|157r32[6|20] 159r32[6|20] 164r21[6|20]
+85i7 Aft{16|88I12} 19|157r43[6|20] 159r43[6|20] 164r32[6|20]
+86i7 Exp{16|88I12} 19|157r53[6|20] 159r53[6|20] 164r42[6|20]
+X 19 area.adb
+14U11*area 14b11 167l5 167t9
+15R9 Point 17e14 21r37 26r33 29r45
+16f7 X{float} 32r22 32r36 32r50 32r64 33r29 33r43 33r57 33r71 157r29
+16f10 Y{float} 32r29 32r43 32r57 32r71 33r22 33r36 33r50 33r64 159r29
+20i4 Max_Points{integer} 21r22
+21a4 Points(15R9) 92m28 117m34 139r45 139r56 139r67 139r78 142r43 143r43
+. 144r43 145r43
+22i4 Num_Points{integer} 91m28 91r42 92r35 116m34 116r48 117r41 131r7 132r19
+. 133r24 134r27 135r30
+25f4 Max_Area{float} 140r32 141m25 164r11
+26a4 Best_Points(15R9) 142m25 143m25 144m25 145m25 157r14 159r14
+29V13 Calculate_Area{float} 29b13 29>28 29>32 29>36 29>40 35l8 35t22 139s30
+29r28 P1{15R9} 32r19 32r68 33r19 33r68
+29r32 P2{15R9} 32r26 32r33 33r26 33r33
+29r36 P3{15R9} 32r40 32r47 33r40 33r47
+29r40 P4{15R9} 32r54 32r61 33r54 33r61
+30f7 Area{float} 32m7 34r14
+38V13 Sanitize_Number{string} 38b13 38>29 49l8 49t23 84s44 85s44 109s50 110s50
+38a29 Input{string} 39r26 42r16 43r13 43r32 43r52 45r28
+39a7 Result{string} 45m13 48r14
+40i7 Len{natural} 44m13 44r20 45r20 48r24
+42i11 I{integer} 43r19 43r38 43r58 45r34
+54p7 File{16|66P9} 59m12 59r12 60r29 61r19 127m13 127r13
+55a7 Line{string} 61m25 71r33 73r48 74r25
+56i7 Last{natural} 61m31 63r13 65r39 70r28
+57f7 X{float} 88m28 92r51 113m34 117r57
+57f10 Y{float} 89m28 92r54 114m34 117r60
+65a16 Clean_Line{string} 73m22 84r60 85r60 101r31 109r66 110r66
+66i16 Clean_Last{natural} 72m22 72r36 73r33 75r38 80r19 85r84 100r45 110r91
+67i16 Comma_Pos{natural} 75m25 81r22 84r74 85r71
+70i20 I{integer} 71r38 73r53 74r30
+84a25 X_Part{string} 87r28 88r45
+85a25 Y_Part{string} 87r50 89r45
+98i25 Last_Space{natural} 102m31 107r28 109r80 110r77
+100i29 I{integer} 101r42 102r45
+109a31 X_Part{string} 112r34 113r51
+110a31 Y_Part{string} 112r56 114r51
+132i11 I{integer} 133r19 139r52 142r50
+133i14 J{integer} 134r22 139r63 143r50
+134i17 K{integer} 135r25 139r74 144r50
+135i20 L{integer} 139r85 145r50
+137f22 Area{float} 139m22 140r25 141r37
+155i11 I{integer} 157r26 159r26
+

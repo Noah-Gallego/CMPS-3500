@@ -1,0 +1,151 @@
+V "GNAT Lib v12"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+
+U testada%b		testada.adb		8444eeb0 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s
+Z ada.text_io.float_io%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W system%s		system.ads		system.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_lflt%s	s-imglfl.ads		s-imglfl.ali
+Z system.img_llf%s	s-imgllf.ads		s-imgllf.ali
+Z system.img_util%s	s-imguti.adb		s-imguti.ali
+Z system.val_flt%s	s-valflt.ads		s-valflt.ali
+Z system.val_lflt%s	s-vallfl.ads		s-vallfl.ali
+Z system.val_llf%s	s-valllf.ads		s-valllf.ali
+
+D ada.ads		20220819080952 76789da1 ada%s
+D a-except.ads		20220819080952 2a7d8d70 ada.exceptions%s
+D a-inteio.ads		20220819080952 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20220819080952 40018c65 ada.io_exceptions%s
+D a-stream.ads		20220819080952 119b8fb3 ada.streams%s
+D a-string.ads		20220819080952 90ac6797 ada.strings%s
+D a-sttebu.ads		20220819080952 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220819080952 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220819080952 9eaa38c6 ada.tags%s
+D a-textio.ads		20220819080952 deada98a ada.text_io%s
+D a-tiflau.ads		20220819080952 40ab5f5e ada.text_io.float_aux%s
+D a-tiflau.adb		20220819080952 1a734a41 ada.text_io.float_aux%b
+D a-tiflio.ads		20220819080952 fcca4daa ada.text_io.float_io%s
+D a-tiflio.adb		20220819080952 46ae63e6 ada.text_io.float_io%b
+D a-tigeau.ads		20220819080952 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinio.ads		20220819080952 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20220819080952 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20220819080952 edec285f interfaces%s
+D i-cstrea.ads		20220819080952 e53d8b8e interfaces.c_streams%s
+D system.ads		20220819080952 a2da961d system%s
+D s-crtl.ads		20220819080952 8a0692f8 system.crtl%s
+D s-exctab.ads		20220819080952 91bef6ef system.exception_table%s
+D s-fatflt.ads		20220819080952 11beb392 system.fat_flt%s
+D s-fatgen.ads		20220819080952 d28c6cfe system.fat_gen%s
+D s-ficobl.ads		20220819080952 dc5161d4 system.file_control_block%s
+D s-imager.ads		20220819080952 500b11a9 system.image_r%s
+D s-imageu.ads		20220819080952 525c30c6 system.image_u%s
+D s-imgflt.ads		20220819080952 78689de8 system.img_flt%s
+D s-imglfl.ads		20220819080952 59c0865c system.img_lflt%s
+D s-imgllf.ads		20220819080952 39f1d16c system.img_llf%s
+D s-imgllu.ads		20220819080952 e025ba90 system.img_llu%s
+D s-imguns.ads		20220819080952 0e4da2ac system.img_uns%s
+D s-imguti.ads		20220819080952 6b7a7f2f system.img_util%s
+D s-parame.ads		20220819080952 d494a4a6 system.parameters%s
+D s-powflt.ads		20220819080952 d8ff1a45 system.powten_flt%s
+D s-powlfl.ads		20220819080952 030cd4c1 system.powten_lflt%s
+D s-powllf.ads		20220819080952 3f0b2003 system.powten_llf%s
+D s-putima.ads		20220819080952 4e095881 system.put_images%s
+D s-secsta.ads		20220819080952 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220819080952 df77073e system.soft_links%s
+D s-stache.ads		20220819080952 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20220819080952 1c9580f6 system.standard_library%s
+D s-stoele.ads		20220819080952 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220819080952 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20220819080952 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220819080952 fa2a7f59 system.unsigned_types%s
+D s-valflt.ads		20220819080952 d738ba7d system.val_flt%s
+D s-vallfl.ads		20220819080952 a92e3e95 system.val_lflt%s
+D s-valllf.ads		20220819080952 ce309699 system.val_llf%s
+D s-valrea.ads		20220819080952 8ddc6624 system.val_real%s
+D s-wchcon.ads		20220819080952 d9032363 system.wch_con%s
+D testada.adb		20250315205235 aca2ce9e testada%b
+D unchconv.ads		20220819080952 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [testada standard 15 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 52|11r6 12r5 13r6 13r31 18r25
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 52|13w10 13r35
+X 10 a-textio.ads
+58K13*Text_IO 727e16 52|11w10 12r9 18r29
+66P9*File_Type 52|54r17
+68n23*In_File{68E9} 52|68r15
+68n32*Out_File{68E9} 52|67r18
+98U14*Create 52|67s5
+113U14*Open 52|68s5
+128U14*Close 52|95s5 96s5
+173U14*Set_Output 52|86s5 88s5
+176V13*Standard_Input{66P9} 52|142s9
+177V13*Standard_Output{66P9} 52|88s16
+257U14*New_Line 52|78s5
+263U14*New_Line 52|58s17 69s9 75s5 84s5 93s5 109s5 116s5 121s5 134s5 151s8
+311V13*End_Of_File{boolean} 52|71s17
+464U14*Put 52|58s5 79s5 80s5 82s5 90s5 91s5 111s5 112s5 113s5 114s5 118s5
+. 119s5 120s5 129s5 139s5 141s5 148s11
+497U14*Put_Line 52|77s5
+507U14*Put_Line 52|87s5 110s5
+X 13 a-tiflio.ads
+46k21*Float_IO 112e25 52|18r37
+82U14 Put 52|83s5[18] 115s5[18]
+X 16 a-tiinio.ads
+51U14*Get 52|72s7[3|18] 142s5[3|18]
+80U14*Put 52|73s7[3|18] 81s5[3|18] 92s5[3|18] 112s17[3|18] 113s20[3|18] 118s25[3|18]
+. 119s16[3|18] 130s5[3|18] 140s5[3|18] 147s11[3|18] 149s11[3|18]
+X 52 testada.adb
+15U11*Testada 15b11 160l5 160t12
+18K11 Flt_IO[13|46] 19r7
+21a3 str{string} 57m5 58r10
+22f3 z{float} 104m5 105m16 115r9
+23b3 b{boolean} 105r18
+24i3 I{integer} 103m5 105m20 105r20 107m5 108m5 112r21 142m25 146r16 146r19
+. 154m5 155r10 158r18
+25i3 n{natural} 36r47 63r10 72m16 73r11 92r9 113r24 155m5
+26N3 DOZEN 107r17 108r17
+27N3 FIRST 35r26 125r18
+28N3 LAST 35r33 125r25
+29N3 MAX_ROW 40r41 140r9 143r19
+30N3 MAX_COL 40r67 144r22
+32I11 SUB_INT{integer} 33r15 35r42
+33i3 one2fifty{32I11} 158m5
+35A8 AN_ARRAY(32I11)<integer> 37r24
+36A8 LOGIC_ARRAY(boolean)<integer>
+37a3 myArray{35A8} 126m7 130r9 135m5 135r22 136r18
+37a12 yourArray{35A8} 136m5
+40A8 MATRIX(integer)<integer><integer> 43r11
+43a3 grid{40A8} 145m11 146m11 147r15
+51U12 nestedTest 51b12 51<23 51>37 51=55 98l7 98t17 105s5
+51f23 z{float} 60m5 64m5 83r9
+51b37 flag{boolean}
+51i55 stuff{integer} 59m5
+53i5 i{integer} 60r16 63m5 81r9
+54p5 outf{10|66P9} 67m12 67r12 77r15 78r14 86r16 96m11 96r11
+54p11 inf{10|66P9} 68m10 68r10 71r29 72r11 95m11 95r11
+125i9 index{integer} 126r15 126r29
+143i9 row{integer} 145r16 145r29 146r25 147r20
+144i12 col{integer} 145r21 147r25 149r15
+
