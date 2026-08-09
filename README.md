@@ -23,6 +23,18 @@ The repository preserves assignments for CMPS 3500 at California State Universit
 
 The materials include examples of procedural, object-oriented, functional, and logic-oriented programming.
 
+## Tech stack
+
+C++, Fortran, Perl, Ada, Ruby, Python, Common Lisp, and Jupyter notebooks, with React and pandas represented in the repository evidence.
+
+### Important libraries
+
+- `pandas` for tabular data work
+
+## Preview
+
+![CMPS 3500 activity preview](https://noah-readme-assets-v2.vercel.app/cmps-3500.png)
+
 ## Usage
 
 Each activity directory contains its own source files and may include a Makefile or input files. Use the language-specific toolchain and inspect the local files before running an exercise. For the C++ activity, for example:
