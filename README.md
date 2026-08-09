@@ -2,6 +2,10 @@
 
 Programming-languages coursework covering syntax, semantics, types, memory, paradigms, concurrency, and language implementation exercises.
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,ruby&theme=light" alt="C++, Python, and Ruby" />
+</p>
+
 ## Course context
 
 The repository preserves assignments for CMPS 3500 at California State University, Bakersfield, Spring 2025. The original course notes identify Linux/Odin, GNU tools, Git, and VS Code as the working environment.
