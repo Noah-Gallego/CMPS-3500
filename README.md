@@ -27,14 +27,6 @@ No honest preview is included; the available browser capture was an access-denie
 
 The materials include examples of procedural, object-oriented, functional, and logic-oriented programming.
 
-## Tech stack
-
-C++, Fortran, Perl, Ada, Ruby, Python, Common Lisp, and Jupyter notebooks, with React and pandas represented in the repository evidence.
-
-### Important libraries
-
-- `pandas` for tabular data work
-
 ## Usage
 
 Each activity directory contains its own source files and may include a Makefile or input files. Use the language-specific toolchain and inspect the local files before running an exercise. For the C++ activity, for example:
