@@ -10,6 +10,10 @@ Programming-languages coursework covering syntax, semantics, types, memory, para
 
 The repository preserves assignments for CMPS 3500 at California State University, Bakersfield, Spring 2025. The original course notes identify Linux/Odin, GNU tools, Git, and VS Code as the working environment.
 
+## Media
+
+No honest preview is included; the available browser capture was an access-denied directory page, and no readable project chart or exported visual is available locally.
+
 ## Contents
 
 - `act01/` — C++ exercises
