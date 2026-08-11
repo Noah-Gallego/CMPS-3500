@@ -2,6 +2,9 @@
 
 Programming-languages coursework covering syntax, semantics, types, memory, paradigms, concurrency, and language implementation exercises.
 
+> [!TIP]
+> Treat each activity directory as an independent exercise: inspect its local files and use that language's compiler or interpreter rather than assuming a repository-wide build.
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,python,ruby&theme=light" alt="C++, Python, and Ruby" />
 </p>
@@ -26,6 +29,15 @@ No honest preview is included; the available browser capture was an access-denie
 - `final/` — Los Angeles crime-data exploratory analysis notebook and data
 
 The materials include examples of procedural, object-oriented, functional, and logic-oriented programming.
+
+## Coursework flow
+
+```mermaid
+flowchart LR
+    Activities[Language activities] --> Toolchains[Language-specific toolchains]
+    Toolchains --> Outputs[Exercise outputs and artifacts]
+    Final[Final analysis notebook and data] --> Outputs
+```
 
 ## Usage
 
